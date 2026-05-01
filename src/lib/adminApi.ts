@@ -5,7 +5,7 @@ import {
   insertAdminRows,
   updateAdminRows,
   upsertAdminRows,
-} from "@/server/admin.functions";
+} from "@/lib/admin.functions";
 import { supabase } from "@/integrations/supabase/client";
 
 type AdminTable = "activities" | "members" | "schedules" | "moments" | "moment_photos" | "app_settings";
